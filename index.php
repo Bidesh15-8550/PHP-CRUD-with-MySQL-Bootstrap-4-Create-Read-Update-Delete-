@@ -40,12 +40,12 @@
         <div class="form-group">
         <label>Name</label>
         <input type="text" name="name"class="form-control" 
-            value="<?php  echo $name;  ?>" placeholder="Enter Your Name">
+            value="<?php  echo $name;  ?>" placeholder="Enter Your Name" required>
         </div>
         <div class="form-group">
         <label>Location</label>
         <input type="text" name="location"class="form-control"
-            value="<?php  echo $location;  ?>" placeholder="Enter Your Location">
+            value="<?php  echo $location;  ?>" placeholder="Enter Your Location" required>
         </div>
         <div class="form-group">
             <?php
